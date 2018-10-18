@@ -1,0 +1,17 @@
+当前女明星的微博分析
+抓取微博 评论数   点赞 前10000条(粉丝评论 粉丝年龄 粉丝位置 粉丝微博id)
+
+杨幂  迪丽热巴 杨紫  杨超越 
+
+图表分析
+
+
+
+
+
+数据库设计
+
+ym_weibo 
+id  name() content(内容) transpond(转发数)  islike(点赞数)  comments(评论数)
+ym_fens
+id ym_weibo_id  age city name  content(内容)
